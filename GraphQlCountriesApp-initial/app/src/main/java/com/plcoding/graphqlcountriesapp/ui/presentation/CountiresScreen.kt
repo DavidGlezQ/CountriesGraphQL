@@ -85,8 +85,6 @@ fun CountryDialog(
                 Spacer(modifier = Modifier.width(16.dp))
                 Text(text = country.name, fontSize = 24.sp)
             }
-            Spacer(modifier = Modifier.height(16.dp))
-            Text(text = "Continent: $country.name", fontSize = 24.sp)
             Spacer(modifier = Modifier.height(8.dp))
             Text(text = "Currency: ${country.currency}", fontSize = 24.sp)
             Spacer(modifier = Modifier.height(8.dp))
